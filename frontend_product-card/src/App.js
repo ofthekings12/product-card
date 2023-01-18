@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         <img className="product-img" src={image1} alt="perfume"></img>
         <div className="product-details">
-          <div className="header">P E R F U M E</div>
+          <div className="header">P  E  R  F  U  M  E</div>
           <div className="product-name">Gabrielle Essence Eau De Parfum</div>
           <div className="product-description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</div>
         <div className="prices">
