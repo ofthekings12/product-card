@@ -1,0 +1,19 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin: auto;
+  background-color: aliceblue;
+  height: 50%;
+  width: 45%;
+  border: solid black;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
