@@ -10,9 +10,8 @@
 .container {
   margin: auto;
   background-color: white;
-  height: 50%;
-  width: 45%;
-  text-align: center;
+  height: 55%;
+  width: 40%;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -23,5 +22,21 @@
 
 .product-img {
   height: 100%;
-  
+}
+
+.product-details {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.prices {
+display: flex;
+justify-content: space-evenly;
+}
+
+.header {
+  padding: 0, 0, 50px, ;
 }
