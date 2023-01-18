@@ -1,4 +1,8 @@
-
+$dark-cyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+$dark-blue: hsl(212, 21%, 14%);
+$grayish-blue: hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
 
 .App {
   height: 100vh;
@@ -7,6 +11,7 @@
   display: flex;
   justify-content: center;
 }
+
 .container {
   margin: auto;
   background-color: white;
@@ -28,33 +33,43 @@
   padding: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: left;
 }
 
-.prices {
-display: flex;
-justify-content: space-evenly;
-}
 
 .header {
   font-family: 'Montserrat', sans-serif;
+  font-weight: thin;
 }
 
 .product-name {
   font-family: 'Fraunces', serif;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .product-description {
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.prices {
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .current-price {
   font-family: 'Fraunces', serif;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .previous-price {
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-decoration: line-through;
 }
 
 .button {
