@@ -25,7 +25,14 @@ $white: hsl(0, 0%, 100%);
 }
 
 .product-img {
+  display: block;
   height: 100%;
+}
+
+.mobile-product-img {
+  height:100vh;
+  width: 100vw;
+  display: none;
 }
 
 .product-details {
@@ -95,4 +102,34 @@ align-items: center;
 
 .button svg {
   margin: 10px;
+}
+
+@media (width <= 600px) and (height <=915px) {
+  .container {
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .product-img {
+    display: none;
+
+  }
+  
+  .mobile-product-img {
+    height: 50%;
+    display: block;
+    object-fit: fill;
+  }
+
+  .product-details {
+  height: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
 }

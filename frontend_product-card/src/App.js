@@ -1,11 +1,13 @@
 import "./App.scss";
 import image1 from "./images/image1.jpg";
+import image2 from "./images/image2.jpg";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <img className="product-img" src={image1} alt="perfume"></img>
+        <img className="mobile-product-img" src={image2} alt="mobileperfume"></img>
         <div className="product-details">
           <div className="header">P  E  R  F  U  M  E</div>
           <div className="product-name">Gabrielle Essence Eau De Parfum</div>
