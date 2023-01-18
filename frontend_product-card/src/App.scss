@@ -28,7 +28,7 @@
   padding: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   text-align: left;
 }
 
@@ -38,5 +38,25 @@ justify-content: space-evenly;
 }
 
 .header {
-  padding: 0, 0, 50px, ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.product-name {
+  font-family: 'Fraunces', serif;
+}
+
+.product-description {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.current-price {
+  font-family: 'Fraunces', serif;
+}
+
+.previous-price {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
 }
