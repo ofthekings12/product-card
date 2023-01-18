@@ -14,7 +14,7 @@ $white: hsl(0, 0%, 100%);
 
 .container {
   margin: auto;
-  background-color: white;
+  background-color: $white;
   height: 55%;
   width: 40%;
   align-items: center;
@@ -40,23 +40,26 @@ $white: hsl(0, 0%, 100%);
 
 .header {
   font-family: 'Montserrat', sans-serif;
-  font-weight: thin;
+  font-weight: 500;
+  font-size: 14px;
+  color: $grayish-blue;
 }
 
 .product-name {
   font-family: 'Fraunces', serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
+  color: $dark-blue;
 }
 
 .product-description {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  color: $grayish-blue;
 }
 
 .prices {
 display: flex;
-justify-content: space-between;
 align-items: center;
 }
 
@@ -64,14 +67,31 @@ align-items: center;
   font-family: 'Fraunces', serif;
   font-size: 30px;
   font-weight: 500;
+  color: $dark-cyan;
 }
 
 .previous-price {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   text-decoration: line-through;
+  color: $grayish-blue;
+  margin: 20px;
 }
 
 .button {
   font-family: 'Montserrat', sans-serif;
+  background-color: $dark-cyan;
+  color: $white;
+  border-radius: 8px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+.button svg {
+  margin: 10px;
 }
